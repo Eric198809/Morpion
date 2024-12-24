@@ -66,39 +66,7 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-input[type="text"]{
-  border-radius: 15px;
-  padding: 10px;
-  border: solid 1px #F96481 ;
-}
 
-input[type="submit"] {
-  border-radius: 15px ;
-  padding: 8px 10px;
-  background-color:  #ff6874;
-  border: solid 2px white;
-  color: white;
-  font-size: 17px;
-  cursor: pointer;
-}
-
-.grid{
-  display: grid;               /* Active CSS Grid */
-  grid-template-columns: repeat(3, 1fr); /* 3 colonnes égales */
-  gap: 10px;                   /* Espacement entre les boutons */
-  width: 300px;                /* Largeur totale de la grille (ajustable) */
-  margin: 0 auto;  
-  padding-top: 30px; 
-  padding-bottom: 30px;    
-}
-
-
-.error-message{
-  color: red ;
-  width: fit-content;
-  padding: 15px;
-  border-radius: 30px;
-}
 
 @media (prefers-color-scheme: light) {
   :root {

@@ -101,7 +101,7 @@ function App() {
           ""
         ) : (
           <div
-            className=""
+            className="players-form-container"
             style={{
               display: "flex",
               flexDirection: "column",
@@ -111,7 +111,7 @@ function App() {
               gap: "30px",
             }}
           >
-            <form
+            <form className="select-players-forms"
               action=""
               style={{
                 display: "flex",

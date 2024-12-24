@@ -40,3 +40,59 @@
 .read-the-docs {
   color: #888;
 }
+
+input[type="text"]{
+  border-radius: 15px;
+  padding: 10px;
+  border: solid 1px #F96481 ;
+}
+
+input[type="submit"] {
+  border-radius: 15px ;
+  padding: 8px 10px;
+  background-color:  #ff6874;
+  border: solid 2px white;
+  color: white;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.grid{
+  display: grid;               
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 10px;                   
+  width: 300px;                
+  margin: 0 auto;  
+  padding-top: 30px; 
+  padding-bottom: 30px;    
+}
+
+
+.error-message{
+  color: red ;
+  width: fit-content;
+  padding: 15px;
+  border-radius: 30px;
+}
+
+@media screen and (max-width: 800px) { 
+  .select-players-forms{
+  flex-direction: column;
+  gap: 15px !important;
+ }
+
+ h2{
+  margin: 0px;
+ }
+
+ input[type="text"]{
+  width: 70%;
+}
+input[type="text"]::placeholder {
+  text-align: center; 
+}
+
+input[type="submit"] {
+width: 50%;
+}
+}
